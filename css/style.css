@@ -15,6 +15,17 @@ div.col-sm-9 div {
 #section41 {color: #fff; background-color: #00bcd4;}
 #section42 {color: #fff; background-color: #009688;}
 
+@media (min-width: 768px){
+  .col-sm-3 {
+    width: 10%;
+  }
+  .col-sm-9 {
+    width: 90%;
+    padding: 1em 2em;
+  }
+}
+
+
 @media screen and (max-width: 810px) {
   #section1, #section2, #section3, #section41, #section42  {
     margin-left: 150px;
